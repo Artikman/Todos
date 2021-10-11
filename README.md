@@ -11,4 +11,4 @@ https://ktor.io/
 https://developer.android.com/training/data-storage/room
 https://developer.android.com/kotlin/flow
 
-Other requirements - Coroutines, Kotlin flows, Dagger2.
+Other requirements - Coroutines, Kotlin flows, Dagger2(Hilt), Cicerone.

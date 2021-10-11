@@ -1,7 +1,9 @@
 package com.example.todos.data.source.remote
 
-import com.example.todos.domain.entity.Todos
+import com.example.todos.data.source.remote.response.TodoResponse
+import com.example.todos.domain.core.result.Result
 
 interface TodosApi {
-    suspend fun getAndPrintTodos(): Todos
+
+    suspend fun getTodos(): Result<TodoResponse>
 }
